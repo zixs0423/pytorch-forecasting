@@ -10,7 +10,7 @@ from pytorch_forecasting.data.examples import generate_ar_data
 
 sys.path.append("..")
 
-
+print('test')
 print("load data")
 data = generate_ar_data(seasonality=10.0, timesteps=400, n_series=100)
 data["static"] = 2
